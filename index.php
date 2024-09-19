@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Profil Saya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Kemampuan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Tentang Saya -->
+    <section id="about" class="py-5">
+        
+        <div class="container text-center">
+            <img src="image/fto lusi.jpeg" alt="Foto Profil" class="rounded-circle mb-4" width="250px">
+            <h2>Hallo, Saya Lusiana</h2>
+            <p class="lead">Nama saya Lusiana. Saya lahir di Banjarnegara pada tanggal 16 Mei 2007. Saat ini, saya tinggal di Desa Gumiwang Rt04/Rw09, Kec.Purwanegara, Kab.Banjarnegara.Saya sekarang bersekolah di SMKN 1 Bawang, dan mengambil jurusan Rekayasa Perangkat Lunak.Saya memiliki minat dalam memasak. Saya senang mengeksplorasi hal-hal baru dan selalu berusaha mengembangkan diri baik dalam kehidupan pribadi.</p>
+        </div>
+    </section>
+
+    <!-- Pendidikan -->
+    <section id="education" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">Pendidikan</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><strong>[SMKN 1 Bawang]</strong> - [2023-2026]</li>
+                <li class="list-group-item"><strong>[SMPN 1 Purwanegara]</strong> - [2020-2023]</li>
+                <li class="list-group-item"><strong>[SDN 1 Gumiwang]</strong> - [2014-2020]</li>
+                <li class="list-group-item"><strong>[TK Cokroaminoto 1 Gumiwang]</strong> - [2013-2014]</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Pengalaman Organisasi -->
+    <section id="experience" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Pengalaman Organisasi</h2>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"> Saya pernah menjadi bagian dari panitia perayaan Hari Kemerdekaan 17 Agustus di desa Gumiwang Rt04/Rw09 pada tahun 2024. Dalam peran ini, saya bertanggung jawab mengorganisir berbagai kegiatan, mulai dari perlombaan, karnaval. Pengalaman ini mengajarkan saya tentang kerja sama tim, manajemen waktu, dan bagaimana berkomunikasi dengan berbagai pihak untuk memastikan setiap acara berjalan lancar. Melalui keterlibatan ini, saya juga lebih memahami pentingnya memperingati nilai-nilai perjuangan bangsa.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Kemampuan -->
+    <section id="kemampuan" class="container mt-5">
+        <h2>Kemampuan</h2>
+        <ul>
+            <li><strong>Hard Skill :</strong></li>
+            <li>- Sedikit menguasai bahasa pemrograman</li>
+            <li><strong>Soft Skill :</strong></li>
+            <li>- Memiliki komunikasi yang baik</li>
+            <li>- Mampu bekerja sama dalam tim</li>
+        </ul>
+    </section>
+
+    <!-- Portofolio -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Portofolio</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="image/figma.png" class="card-img-top" alt="Project 1" style="width: 500px;">
+                    <h5 class="card-title">Project 1</h5>
+                    <p class="card-text">Membuat desain web pemesanan tiket DFC"</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/id card.png" class="card-img-top" alt="Proyek 2"  style="width: 300px;">
+                    <h5 class="card-title">Project 2</h5>
+                    <p class="card-text">Membuat id card</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/19029_logopplgjuara.png" class="img-fluid" alt="Proyek 3" style="width: 300px;">
+                    <h5 class="card-title">Project 3</h5>
+                    <p class="card-text">Membuat logo jurusan PPLG</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/kursi.png" class="img-fluid" alt="Proyek 3" style="width: 300px;">
+                    <h5 class="card-title">Project 4</h5>
+                    <p class="card-text">Membuat kursi di aplikasi blender</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="image/game zona binatang.png" class="img-fluid" alt="Proyek 3" style="width: 300px;">
+                    <h5 class="card-title">Project 5</h5>
+                    <p class="card-text">Membuat game zona binatang</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Kontak -->
+    <section id="contact" class="bg-light py-5">
+        <div class="container text-center">
+            <h2>Kontak</h2>
+       
+    </style>
+</head>
+<body>
+    <section>
+    <a href="mailto:<?php echo $email="@lusianaa7273.gmail.com" ?>" class="contact-icon email" target="_blank">
+        <i class="fas fa-envelope"></i> Email
+    </a>
+    <a href="<?php echo $whatsapp_url="https://wa.me/message/LUABS3NDLTX7I1" ?>" class="social-icon whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i> Whatsapp
+    <a href="<?php echo $instagram_url="https://www.instagram.com/analuciee?igsh=MWw4cDByZnRmNHFzeg==" ?>" class="social-icon" target="_blank">
+        <i class="fab fa-instagram"></i> Instagram
+    </a>
+        </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#A2D9FF" fill-opacity="1" d="M0,288L48,277.3C96,267,192,245,288,240C384,235,480,245,576,224C672,203,768,149,864,154.7C960,160,1056,224,1152,245.3C1248,267,1344,245,1392,234.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Lusiana. All rights reserved.</p>
+    </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

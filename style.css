@@ -1,0 +1,193 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: #2C3E50;
+    letter-spacing: 1px;
+}
+
+p, ul {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2C3E50;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #ecf0f1;
+    margin-right: 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+#about {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    padding: 80px 0;
+}
+
+#about .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    margin-top: 20px;
+    color: #2C3E50;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 20px auto;
+    color: #7f8c8d;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #34495e;
+    position: relative;
+    display: inline-block;
+}
+
+section h2::after {
+    content: '';
+    width: 60px;
+    height: 4px;
+    background-color: #3498db;
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+/* Section Layout */
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+/* List Styling */
+.list-group-item {
+    background-color: transparent;
+    border: none;
+    color: #555;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.list-group-item strong {
+    color: #2C3E50;
+}
+
+/* Skills Section */
+#skills .row .col-md-4 {
+    margin-bottom: 20px;
+}
+
+#skills h4 {
+    font-size: 1.5rem;
+    color: #2C3E50;
+}
+
+/* Portfolio Section */
+#portfolio img {
+    justify-content: center;
+    width: 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#portfolio img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+}
+
+#portfolio p {
+    margin-top: 15px;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+#contact a {
+    color: #3498db;
+}
+.social-icon {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #C13584; /* Warna Instagram */
+}
+
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    color: #3498db;
+    transition: color 0.3s ease-in-out;
+}
+
+footer p a:hover {
+    color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #skills h4 {
+        font-size: 1.2rem;
+    }
+}
